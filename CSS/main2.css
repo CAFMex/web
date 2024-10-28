@@ -1,0 +1,151 @@
+.InfoPrincipal{
+    display: grid;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+.titular{
+    background-color: rgb(136, 136, 136);
+    background-image: url(/JPG/conferencia.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: 15%;
+    background-blend-mode:multiply;
+    height: 80vh;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+}
+
+.dato1{
+    background-color: rgb(38, 42, 71);
+    display: grid;
+    grid-auto-flow: column;
+    height: 50vh;
+    
+}
+
+.dato2{
+    background-color: rgb(38, 42, 71);
+    display: grid;
+    grid-auto-flow: column;
+    height: 50vh;
+    padding-left: 10%;
+    
+
+}
+.dato3{
+    background-color: rgb(38, 42, 71);
+    display: grid;
+    grid-auto-flow: column;
+    height: 50vh;
+    
+}
+.InfoTitular{
+    background-color: rgba(34, 34, 34, 0);
+}
+.InfoTitular p{
+    background-color: rgba(34, 34, 34, 0);
+    width: 40vw;
+    padding-bottom: 5%;
+    gap: 5%;
+    color: rgb(255, 255, 250);
+    font-size: xx-large;
+    font-weight: lighter;
+}
+.imagen1{
+    height: auto;
+    width: 50vw;
+    background-color:  rgb(136, 136, 136);
+    background-blend-mode:multiply;
+    background-image: url(/JPG/padres.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.imagen2{
+    height: auto;
+    width: 40vw;
+    padding-right: 30%;
+    background-color:  rgb(136, 136, 136);
+    background-blend-mode:multiply;
+    background-image: url(/JPG/mapa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.imagen3{
+    height: auto;
+    width: 50vw;
+    background-color:  rgb(136, 136, 136);
+    background-blend-mode:multiply;
+    background-image: url(/JPG/donativo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.dato{
+    height: auto;
+    width: 30vw;
+    background-color: rgb(38, 42, 71);
+  
+    
+}
+
+.dato p{
+    background-color: rgb(38, 42, 71);
+    color: rgb(255, 255, 250);
+    z-index: 1;
+    font-size: x-large;
+    padding-top: 30%;
+    
+}
+
+
+
+footer{
+    height: 50vh;
+    width: 100vw;
+    background-color: rgb(67, 83, 250);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    align-items: center;
+    
+    
+}
+
+.facebook{
+    width: 10vw;
+    height: 15vh;
+    background-image: url(/PNG/facebook.png);
+    background-color: rgb(67, 83, 250);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.instagram{
+    width: 10vw;
+    height: 15vh;
+    background-color: rgb(67, 83, 250);
+    background-image: url(/PNG/instagram.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.SubApartados{
+    background-color: rgb(67, 83, 250);
+}
+.redes{
+    background-color: rgb(67, 83, 250);
+}
+
+.SubApartados li{
+    list-style: none;
+    background-color: rgb(67, 83, 250);
+}
+
+.SubApartados ul{
+    background-color: rgb(67, 83, 250);
+    color: rgb(255, 255, 250);
+}
+   
